@@ -1,0 +1,364 @@
+/* Basic format */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto',Arial, sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #eeee;
+}
+
+
+/* For navbar */
+.navbar{
+    height: 9vh;
+    width: 100%;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.navlogo{
+    height: 3vh;
+    width: 7vw;
+}
+.searchinput{
+    height: 5vh;
+    width: 30vw;
+    outline: none;
+    padding: 1vw;
+}
+.logininput{
+    margin-left: 1vw;
+    width: 9vw;
+    height: 5vh;
+    color: #2874f0;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.search{
+    margin-left: -3vw;
+    cursor: pointer;
+}
+.p{
+    color: white;
+    margin-left: 3vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* For after navbar */
+.firstposterscontainer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    margin-top: 5vh;
+    background-color: #fff;
+}
+
+.holder{
+    width: 7vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.picture{
+    height: 10vh;
+    width: 5vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text{
+    font-weight: bolder;
+    color: #565656;
+}
+.p1{
+    background-image: url(./imagef/asset\ 2.png);
+    background-size: contain;
+}
+.p2{
+    background-image: url(./imagef/asset\ 3.png);
+}
+.p3{
+    background-image: url(./imagef/asset\ 4.png);
+}
+.p4{
+    background: url(./imagef/asset\ 5.png);
+    background-size: cover;
+}
+.p5{
+    background-image: url(./imagef/asset\ 6.jpeg);
+    background-size: cover;
+}
+.p6{
+    background-image: url(./imagef/asset\ 7.png);
+}
+.p7{
+    background-image: url(./imagef/asset\ 8.png);
+}
+.p8{
+    background-image: url(./imagef/asset\ 9.png);
+}
+.p9{
+    background-image: url(./imagef/asset\ 10.png);
+}
+.p10{
+    background-image: url(./imagef/asset\ 11.png);
+}
+
+
+/* For slider items */
+.slider{
+    height: 40vh;
+    width: 100%;
+    margin-top: 5vh;
+    overflow: hidden;
+    background-color: #fff;
+}
+.sliderimage{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    animation: slide 20s linear 4s alternate infinite;
+}
+.img{
+    height: inherit;
+    width: 100%;
+}
+@keyframes slide {
+   0%{
+        transform: translateX(0%);
+   }
+   30%{
+        transform: translateX(-100%);
+   }
+   60%{
+        transform: translateX(-200%);
+   }
+   95%{
+        transform: translateX(-300%);
+   }
+}
+
+/* For after slider or for first item list */
+.forfirstitemcontainer{
+    margin-top: 7vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+.headitem{
+    height: 50vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10vh;
+}
+.headitem{
+    background-image: url(./imagef/asset\ 62.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+.headitem2{
+    background-image: url(./imagef/asset\ 63.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+.elec{
+    width: 10vw;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2vw;
+}
+.button{
+    height: 6vh;
+    width: 7vw;
+    color: white;
+    background-color: #2874f0;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: black 2px 2px 4px;
+}
+.firstitem{
+    height: 50vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1vh;
+}
+.pic{
+    height: 30vh;
+    width: 17vw;
+}
+.nameitem{
+    font-size: 15px;
+    font-weight: bold;
+    color: #565656;
+}
+.priceitem{
+    font-size: 15px;
+    color: green;
+}
+.pic2{
+    margin-left: 3vw;
+}
+.pic3{
+    margin-left: 3.2vw;
+}
+.pic4{
+    margin-left: 5vw;
+}
+.pic11{
+    margin-left: 4vw;
+}
+.pic21{
+    margin-left: 4.2vw;
+}
+.pic31{
+    margin-left: 7.5vw;
+}
+.pic41{
+    margin-left: 4vw;
+}
+.pic12{
+    margin-left: 0.5vw;
+}
+.pic13{
+    margin-left: 3.3vw;
+}
+.pic14{
+    margin-left: 5.4vw;
+}
+
+
+/* For second footer which has describe content */
+.secondfooter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    width: 95vw;
+    margin-left: 2vw;
+    gap: 5vh;
+    background-color: #fff;
+}
+.footerdesc{
+    font-size: 12px;
+    margin-top: 1.5vh;
+    color: #565656;
+    font-weight: bold;
+}
+.footerhead{
+    font-size: 15px;
+    color: #464545;
+    font-weight: bold;
+}
+
+
+/* For last footer */
+.lastfooter{
+    margin-top: 15vh;
+    display: flex;
+    gap: 3vw;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35vh;
+    background-color: #172337;
+    border-bottom: solid 2px #565656;
+}
+h5{
+    font-size: 13px;
+    color: #807d7d;
+}
+.list1{
+    margin-top: 1.5vh;
+    font-size: 12px;
+    list-style: none;
+    color: white;
+}
+
+.mail{
+    border-left: #565656 solid 2px;
+    padding-left: 2vw;
+}
+
+
+
+/* For footer */
+.footer{
+    background-color: #172337;
+    height: 13vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.seller{
+    height: 3vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.beseller{
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.logo{
+    height: 3vh;
+    width: 3vh;
+    background-image: url(./imagef/asset\ 57.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logos{
+    height: 3vh;
+    width: 3vh;
+    background-image: url(./imagef/asset\ 58.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logoss{
+    height: 3vh;
+    width: 3vh;
+    background-image: url(./imagef/asset\ 59.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logosss{
+    height: 3vh;
+    width: 3vh;
+    background-image: url(./imagef/asset\ 60.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.textfooter{
+    width: 15vw;
+}
